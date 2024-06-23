@@ -87,13 +87,13 @@
 #ifndef MOTOR_CURRENT_PWM_RANGE
   #define MOTOR_CURRENT_PWM_RANGE            2000
 #endif
-#define DEFAULT_PWM_MOTOR_CURRENT  {1300, 1300, 1250}
+#define DEFAULT_PWM_MOTOR_CURRENT  {1200, 1200, 1200}
 
 //
 // Temperature Sensors
 //
-#define TEMP_0_PIN                             8  // Analog Input
-#define TEMP_1_PIN                             9  // Analog Input
+#define TEMP_0_PIN                             9  // Analog Input
+#define TEMP_1_PIN                             8  // Analog Input
 #define TEMP_BED_PIN                          10  // Analog Input
 
 //
